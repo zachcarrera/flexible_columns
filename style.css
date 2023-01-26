@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.col, .col-2, .col-3 {
+    background-color: #65a3ab;
+    color: white;
+    text-align: left;
+    padding: 1.5em;
+    font-size: 24px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 2;
+}
